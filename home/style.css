@@ -11,6 +11,7 @@ body {
   background-color: blue;
   position: relative;
   padding: 0 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 .header li {
   list-style: none;
@@ -116,4 +117,186 @@ body {
     left: 2rem;
     width: unset;
   }
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.register-form {
+  width: 100vh;
+  margin: 50px;
+  margin-left: 100px;
+  border: 2px solid black;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.822);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  height: 75vh;
+
+  border-radius: 50px;
+}
+.register-heading {
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 25px;
+  color: white;
+}
+.register-flex1 {
+  display: flex;
+  gap: 80px;
+  padding-bottom: 25px;
+}
+.register-flex2 {
+  display: flex;
+  gap: 80px;
+  padding-bottom: 25px;
+}
+.register-flex3 {
+  display: flex;
+  gap: 80px;
+  padding-bottom: 25px;
+}
+.register-para {
+  font-size: 16px;
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.register-input {
+  padding: 8px 12px;
+  border-radius: 50px;
+  background: transparent;
+  border: 1px solid white;
+}
+.register-input:hover {
+  padding: 8px 12px;
+  border-radius: 50px;
+  background: transparent;
+  border: 1px solid white;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 1);
+  transition: 0.5s;
+}
+.register-button {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding: 8px 32px;
+  font-size: 25px;
+  border-radius: 25px;
+  background-color: blue;
+  font-weight: bold;
+  color: white;
+}
+.register-button:hover {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding: 8px 32px;
+  font-size: 25px;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.register-buttonflex {
+  display: flex;
+  justify-content: center;
+}
+.login-here {
+  display: flex;
+  margin: 10px 20px;
+  justify-content: center;
+}
+.register-link {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+.register-link:hover {
+  font-size: 18px;
+  color: orange;
+  font-weight: bold;
+}
+
+/* -------------------------------- */
+.explore-courses {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  margin-left: 25px;
+  margin-right: 20px;
+  background-color: aqua;
+  padding: 20px 0px;
+  text-align: center;
+  border-radius: 50px;
+}
+.course {
+  display: flex;
+  gap: 40px;
+  margin-right: 25px;
+  margin-left: 30px;
+}
+.course-heading {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.course-image {
+  width: 200px;
+  height: 100px;
+}
+.course-para {
+  font-size: 16px;
+  text-align: center;
+}
+.course-link {
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 25px;
+  color: blue;
+  border: 1px solid blue;
+  padding: 2px 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.course-link:hover {
+  color: black;
+  border: 1px solid black;
+  padding: 2px 5px;
+  transition: 0.5s;
+}
+.course-footer {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.course-price {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.buy-button {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.buy-button:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.course-flex1 {
+  text-align: center;
+  border: 2px solid black;
+  height: 425px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.trending-course {
+  font-size: 30px;
+  text-align: center;
+  background-color: aqua;
+  padding: 20px 0px;
+  margin-bottom: 20px;
 }
