@@ -76,6 +76,7 @@ header{
 }
 
 .navigation .btnLogin-popup a{
+    padding: 10px 35px;
     text-decoration: none;
     color: #fff;
     font-size: 1.1rem;
