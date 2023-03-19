@@ -7,5 +7,41 @@
     <title>Home|Study Snap</title>
     <link href="style.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="navbar">
+        <div class="logo"><a class="nav-link" href="#">StudySnap</a></div>
+        <ul class="links">
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">Courses</a></li>
+          <li><a class="nav-link" href="#">About Us</a></li>
+          <li><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+        <a href="#" class="action_btn">Dashboard</a>
+        <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
+      </div>
+      <div class="dropdown_menu">
+        <li><a class="nav-link" href="#">Home</a></li>
+        <li><a class="nav-link" href="#">Courses</a></li>
+        <li><a class="nav-link" href="#">About Us</a></li>
+        <li><a class="nav-link" href="#">Contact Us</a></li>
+        <li><a href="#" class="action_btn">Dashboard</a></li>
+      </div>
+    </header>
+
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn i");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        const isOpen = dropDownMenu.classList.contains("open");
+
+        toggleBtnIcon.classList = isOpen
+          ? "fa-solid fa-xmark"
+          : "fa-solid fa-bars";
+      };
+    </script>
+  </body>
 </html>
