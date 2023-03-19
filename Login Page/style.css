@@ -24,7 +24,8 @@ header{
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    /* background: red; */
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
+    backdrop-filter: blur(15px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,7 +88,7 @@ header{
 
 .wrapper{
     position: relative;
-    margin-top: 50px;
+    margin-top: 80px;
     width: 400px;
     height: 440px;
     background: transparent;
@@ -151,8 +152,9 @@ header{
     justify-content: center;
     align-items: center;
     border-bottom-left-radius: 20px;
-    cursor: pointer;
+    cursor:crosshair;
 }
+
 
 .form-box h2{
     font-size: 2em;
