@@ -1,242 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
-    <title>Navigation Bar</title>
-    <script
-      src="https://kit.fontawesome.com/f1a0b57c21.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <header class="header">
-      <div class="navbar">
-        <div class="logo"><a class="nav-link" href="#">StudySnap</a></div>
-        <ul class="links">
-          <li><a class="nav-link" href="#">Home</a></li>
-          <li><a class="nav-link" href="#">Courses</a></li>
-          <li><a class="nav-link" href="#">About Us</a></li>
-          <li><a class="nav-link" href="#">Contact Us</a></li>
-        </ul>
-        <a href="#" class="action_btn">Dashboard</a>
-        <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
-      </div>
-      <div class="dropdown_menu">
-        <ul>
-          <li><a class="nav-link" href="#">Home</a></li>
-          <li><a class="nav-link" href="#">Courses</a></li>
-          <li><a class="nav-link" href="#">About Us</a></li>
-          <li><a class="nav-link" href="#">Contact Us</a></li>
-        </ul>
-        <li><a href="#" class="action_btn">Dashboard</a></li>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header id="header">
+        <h2 id="logo" class="logo">Study Snap</h2>
+        <nav class="navigation">
+            <a class="links" href="/home/index.html">Home</a>
+            <a class="links" href="#">About</a>
+            <a class="links" href="#">Services</a>
+            <a class="links" href="#">Contact</a>
+            <button class="btnLogin-popup"><a href="/Login Page/index.html">Login</a></button>
+        </nav>
     </header>
 
-    <script>
-      const toggleBtn = document.querySelector(".toggle_btn");
-      const toggleBtnIcon = document.querySelector(".toggle_btn i");
-      const dropDownMenu = document.querySelector(".dropdown_menu");
-
-      toggleBtn.onclick = function () {
-        dropDownMenu.classList.toggle("open");
-        const isOpen = dropDownMenu.classList.contains("open");
-
-        toggleBtnIcon.classList = isOpen
-          ? "fa-solid fa-xmark"
-          : "fa-solid fa-bars";
-      };
-    </script>
-
-    <section class="hero">
-      <div>
-        <h1 class="explore-courses">Explore Courses</h1>
-        <div class="course">
-          <div class="course-flex1">
-            <h3 class="course-heading">HTML</h3>
-            <img class="course-image" src="html.png" alt="Error Image" />
-            <p class="course-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              quisquam tempora itaque dignissimos quod ipsa doloribus iure
-              tempore! Neque, corrupti!
-            </p>
-            <p class="course-footer">By Krishan Kumar</p>
-            <a class="course-link" href="#">Read More </a>
-            <p class="course-price">$1</p>
-            <button class="buy-button">BUY NOW</button>
-          </div>
-          <div class="course-flex1">
-            <h3 class="course-heading">CSS</h3>
-            <img class="course-image" src="html.png" alt="Error Image" />
-            <p class="course-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              quisquam tempora itaque dignissimos quod ipsa doloribus iure
-              tempore! Neque, corrupti!
-            </p>
-            <p class="course-footer">By Krishan Kumar</p>
-            <a class="course-link" href="#">Read More </a>
-            <p class="course-price">$1</p>
-            <button class="buy-button">BUY NOW</button>
-          </div>
-          <div class="course-flex1">
-            <h3 class="course-heading">JAVASCRIPT</h3>
-            <img class="course-image" src="html.png" alt="Error Image" />
-            <p class="course-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              quisquam tempora itaque dignissimos quod ipsa doloribus iure
-              tempore! Neque, corrupti!
-            </p>
-            <p class="course-footer">By Krishan Kumar</p>
-            <a class="course-link" href="#">Read More </a>
-            <p class="course-price">$1</p>
-            <button class="buy-button">BUY NOW</button>
-          </div>
-        </div>
-      </div>
-      <div class="register-form">
-        <h1 class="register-heading">Register Here</h1>
-
-        <div class="register-flex1">
-          <div>
-            <p class="register-para">Full Name</p>
-            <input
-              class="register-input"
-              type="text"
-              placeholder="Enter Your Name "
-            />
-          </div>
-          <div>
-            <p class="register-para">Username</p>
-            <input
-              class="register-input"
-              type="text"
-              placeholder="Enter Your Username"
-            />
-          </div>
-        </div>
-
-        <div class="register-flex2">
-          <div>
-            <p class="register-para">Email</p>
-            <input
-              class="register-input"
-              type="text"
-              placeholder="Enter Your Email Address "
-            />
-          </div>
-          <div>
-            <p class="register-para">Phone Number</p>
-            <input
-              class="register-input"
-              type="email"
-              placeholder="Enter Your Phone number "
-            />
-          </div>
-        </div>
-
-        <div class="register-flex3">
-          <div>
-            <p class="register-para">Password</p>
-            <input
-              class="register-input"
-              type="text"
-              placeholder="Create Your Password"
-            />
-          </div>
-          <div>
-            <p class="register-para">Confirm Password</p>
-            <input
-              class="register-input"
-              type="text"
-              placeholder="Confirm Your Password"
-            />
-          </div>
-        </div>
-
-        <div class="register-buttonflex">
-          <button class="register-button">Register</button>
-        </div>
-
-        <div class="login-here">
-          <a class="register-link" href="#">Login Here</a>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div>
-        <h1 class="trending-course">Trending Courses</h1>
-        <div class="course">
-          <div class="course-flex1">
-            <h3 class="course-heading">HTML</h3>
-            <img class="course-image" src="html.png" alt="Error Image" />
-            <p class="course-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              quisquam tempora itaque dignissimos quod ipsa doloribus iure
-              tempore! Neque, corrupti!
-            </p>
-            <p class="course-footer">By Krishan Kumar</p>
-            <a class="course-link" href="#">Read More </a>
-            <p class="course-price">$1</p>
-            <button class="buy-button">BUY NOW</button>
-          </div>
-          <div class="course-flex1">
-            <h3 class="course-heading">CSS</h3>
-            <img class="course-image" src="html.png" alt="Error Image" />
-            <p class="course-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              quisquam tempora itaque dignissimos quod ipsa doloribus iure
-              tempore! Neque, corrupti!
-            </p>
-            <p class="course-footer">By Krishan Kumar</p>
-            <a class="course-link" href="#">Read More </a>
-            <p class="course-price">$1</p>
-            <button class="buy-button">BUY NOW</button>
-          </div>
-
-          <div class="course-flex1">
-            <h3 class="course-heading">JAVASCRIPT</h3>
-            <img class="course-image" src="html.png" alt="Error Image" />
-            <p class="course-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              quisquam tempora itaque dignissimos quod ipsa doloribus iure
-              tempore! Neque, corrupti!
-            </p>
-            <p class="course-footer">By Krishan Kumar</p>
-            <a class="course-link" href="#">Read More </a>
-            <p class="course-price">$1</p>
-            <button class="buy-button">BUY NOW</button>
-          </div>
-          <div class="course-flex1">
-            <h3 class="course-heading">PYTHON</h3>
-            <img class="course-image" src="html.png" alt="Error Image" />
-            <p class="course-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              quisquam tempora itaque dignissimos quod ipsa doloribus iure
-              tempore! Neque, corrupti!
-            </p>
-            <p class="course-footer">By Krishan Kumar</p>
-            <a class="course-link" href="#">Read More </a>
-            <p class="course-price">$1</p>
-            <button class="buy-button">BUY NOW</button>
-          </div>
-          <div class="course-flex1">
-            <h3 class="course-heading">JAVA</h3>
-            <img class="course-image" src="html.png" alt="Error Image" />
-            <p class="course-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              quisquam tempora itaque dignissimos quod ipsa doloribus iure
-              tempore! Neque, corrupti!
-            </p>
-            <p class="course-footer">By Krishan Kumar</p>
-            <a class="course-link" href="#">Read More </a>
-            <p class="course-price">$1</p>
-            <button class="buy-button">BUY NOW</button>
-          </div>
-        </div>
-      </div>
-    </section>
-  </body>
+    
+    
+</body>
 </html>
