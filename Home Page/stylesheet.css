@@ -170,3 +170,56 @@ header{
     margin-bottom: 4px;
     box-shadow: rgba(32, 105, 223, 0.884) 0px 4px 20px -5px;
 }
+
+.sec2 .wrapper2{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background-color: red;      /*just to check padding*/
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 .wrapper2 h2{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 1000;
+    top: 5%;
+
+}
+
+.wrapper2 .search-bar{
+    position: absolute;
+    top: 50%;
+}
+
+
+
+
+  
+/* @media screen and (max-width: 800px){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 99;
+        overflow: hidden;
+        transition: .3s;
+    }
+    .sec1 {
+        background: url(study.svg) no-repeat;
+        background-position-x: 100%;
+        background-position-y: 0%;
+        background-size: 40%;
+        height: 500px;
+    }
+
+} */
+    
