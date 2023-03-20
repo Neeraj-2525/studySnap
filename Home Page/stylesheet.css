@@ -132,7 +132,7 @@ header{
     margin-bottom: 4px;
     box-shadow: rgba(32, 105, 223, 0.884) 0px 4px 20px -5px;
 }
-/*@media screen and (max-width: 800px){
+@media screen and (max-width: 800px){
     header{
         position: fixed;
         top: 0;
@@ -148,12 +148,22 @@ header{
         transition: .3s;
     }
     .sec1 {
-        background: url(study.svg) no-repeat;
+        background: url() no-repeat;
         background-position-x: 100%;
         background-position-y: 0%;
         background-size: 40%;
         height: 500px;
     }
+    .sec1 .intro-container{
+        margin-top: 200px;
+        margin-left: 10rem;
+        width: 150px;
+    }
+    .sec1 .intro-container #intro-line{
+        font-size: 2rem;
+        line-height: 1.1;
+        font-weight: 500;
+    }
 
-}*/
+}
     
