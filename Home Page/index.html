@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <script src="script.js"></script>
 </head>
+
 <body>
     <header id="header">
         <h2 id="logo" class="logo">Study Snap_</h2>
@@ -26,26 +28,32 @@
             <div class="intro-container">
                 <h1 id="intro-line">Learn In A <br> Snap</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Obcaecati voluptatum amet dignissimos nostrum rem doloribus incidunt non consectetur saepe hic?
+                    Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Obcaecati voluptatum amet dignissimos
+                    nostrum rem doloribus incidunt non consectetur saepe hic?
                 </p>
-    
+
                 <a href="#" class="cta"><button>Get Started</button></a>
             </div>
-                <img src="study.svg" alt="study" >
+            <img src="study.svg" alt="study">
         </div>
     </section>
 
     <section class="sec2">
         <div class="wrapper2">
             <h2>Free Online Courses with certificates</h2>
-            <form>
-                <label for="search">Search</label>
-                <input id="search" type="search" pattern=".*\S.*" required>
-                <span class="caret"></span>
-              </form>
+                <form>
+                    <!-- <label for="search"></label> -->
+                    <ion-icon class="search-icon" name="search-outline"></ion-icon>
+                    <input id="search" type="search" pattern=".*\S.*" required
+                        placeholder= "What do you want to learn today?">
+                    <span class="caret"></span>
+                </form>
+            
         </div>
     </section>
-    
-    
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
