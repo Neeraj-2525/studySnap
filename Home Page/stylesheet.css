@@ -170,29 +170,3 @@ header{
     margin-bottom: 4px;
     box-shadow: rgba(32, 105, 223, 0.884) 0px 4px 20px -5px;
 }
-
-.sec2 .wrapper2{
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    background-color: red;      /*just to check padding*/
-    justify-content: center;
-    align-items: center;
-}
-
-.sec2 .wrapper2 h2{
-    position: absolute;
-    font-size: 2rem;
-    font-weight: 1000;
-    top: 5%;
-
-}
-
-.wrapper2 .search-bar{
-    position: absolute;
-    top: 50%;
-}
-
-
-  
