@@ -238,12 +238,12 @@ header{
 .sec3{
     margin-top: 1.1rem;
     min-height: 80vh;
-    background: rgba(0, 255, 170, 0.404);
+    background: rgb(66 133 244);
 }
 
 
 .sec3 .sec3-container{
-    background: rgba(251, 255, 0, 0.315);
+    background: rgb(66 133 244);
     text-align: center;
 }
 
