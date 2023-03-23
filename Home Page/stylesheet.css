@@ -121,7 +121,12 @@ header{
     background-position-x: 100%;
     background-position-y: 0%;
     background-size: 40%; */
-    height: 70vh;
+    /* min-height: 100vh; */
+    width: 100%;
+    min-width: 100vw;
+    /* height: 70vh; */
+    /* background-image: linear-gradient(to right bottom, #0077b6, #00363a); */
+    margin-bottom: 100px;
 }
 
 .sec1 .intro-container{
@@ -145,6 +150,7 @@ header{
 .sec1 .wrapper{
     display: flex;
     margin-top: 10rem;
+    width: 100vw;
 }
 
 .sec1 .wrapper img{
@@ -170,8 +176,42 @@ header{
     margin-bottom: 4px;
     box-shadow: rgba(32, 105, 223, 0.884) 0px 4px 20px -5px;
 }
-/*@media screen and (max-width: 800px){
-    header{
+
+.sec2{
+    width: 100%;
+    min-width: 100vw;
+}
+
+.wrapper2{
+    /* background-color: red; */
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper2 h2{
+    font-size: 1.9rem;
+    margin-bottom: 5vh;
+}
+
+.wrapper2 #search{
+    margin: 0 49px 0 49px;
+    padding: 10px 20px 10px 20px;
+    width: 45vw;
+    height: 10vh;
+    border-radius: 10px;
+    border: 1px solid #4286f4d3;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+/* @media screen and (max-width: 800px){          by Krishan
+    header{ 
         position: fixed;
         top: 0;
         left: 0;
@@ -203,5 +243,6 @@ header{
         font-weight: 500;
     }
 
-}*/
+} 
+*/
     
