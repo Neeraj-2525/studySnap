@@ -172,7 +172,7 @@ header{
 
 .cta button:hover {
     cursor: pointer;
-    background-color: #1c61d1;
+    background-color: #0050d188;
     margin-bottom: 4px;
     box-shadow: rgba(32, 105, 223, 0.884) 0px 4px 20px -5px;
 }
@@ -180,10 +180,12 @@ header{
 .sec2{
     width: 100%;
     min-width: 100vw;
+    
+
 }
 
 .wrapper2{
-    /* background-color: red; */
+    /* background-color: rgba(255, 0, 0, 0.26); */
     height: 50vh;
     justify-content: center;
     text-align: center;
@@ -206,6 +208,26 @@ header{
     text-align: center;
 }
 
+.sec2 .wrapper2 h3{
+    font-size: 0.9rem;
+    margin-top: 40px;
+    font-weight: 600;
+    color: #4e5358;
+}
+
+.wrapper2 .left-img{
+    width: 17%;
+    left: 0;
+    top: 110%;
+    margin-left: 15px;
+    
+}
+.wrapper2 .right-img{
+    width: 20%;
+    right: 0;
+    top: 110%;
+    margin-right: 15px;
+}
 
 
 
