@@ -180,7 +180,7 @@ header{
 .sec2{
     width: 100%;
     min-width: 100vw;
-    
+    overflow: hidden;
 
 }
 
@@ -189,6 +189,10 @@ header{
     height: 50vh;
     justify-content: center;
     text-align: center;
+}
+
+.container1{
+    display: block;
 }
 
 .wrapper2 h2{
@@ -215,20 +219,56 @@ header{
     color: #4e5358;
 }
 
-.wrapper2 .left-img{
+.left-img{
+    position: absolute;
     width: 17%;
     left: 0;
     top: 110%;
-    margin-left: 15px;
+    margin-left: 20px;
     
 }
-.wrapper2 .right-img{
-    width: 20%;
+.right-img{
+    position: absolute;
+    width: 17%;
     right: 0;
     top: 110%;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
+.sec3{
+    margin-top: 1.1rem;
+    min-height: 80vh;
+    background: rgba(0, 255, 170, 0.404);
+}
+
+
+.sec3 .sec3-container{
+    background: rgba(251, 255, 0, 0.315);
+    text-align: center;
+}
+
+.sec3 .sec3-container .header{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .card {
+    background-color: #f2f2f2;
+    padding: 70px;
+    border-radius: 5px;
+
+    text-align: center;
+  }
+  
 
 
 
