@@ -216,6 +216,7 @@ header {
 }
 
 .left-img {
+  z-index: -5;
   position: absolute;
   width: 17%;
   left: 0;
@@ -224,6 +225,7 @@ header {
 }
 
 .right-img {
+  z-index: -5;
   position: absolute;
   width: 17%;
   right: 0;
@@ -234,7 +236,7 @@ header {
 .sec3 {
   margin-top: 1.1rem;
   min-height: 80vh;
-  background-image: linear-gradient(to right bottom, #0077ff91, #43009177);
+  background-image: linear-gradient(to right bottom,#93cab8,#22aeff, #8daf9e);
 }
 
 .sec3 .sec3-container {
@@ -264,7 +266,7 @@ header {
   width: 183px;
   margin: 0 42px 38px 0;
   padding: 0 27px 0 27px;
-  background-color: #ffffff;
+  background-image: linear-gradient(to right top, #f6f6f7, #fff);
   border-radius: 20px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 6px 0px;
@@ -353,7 +355,8 @@ header {
 .footer {
   padding: 2rem 5rem;
   border-top: 1px solid #eee;
-  background-color: rgb(154, 150, 150);
+  background: #0b2441;
+  background-image: linear-gradient(to right bottom, #0b2441, #545a5f );
 }
 .container {
   display: flex;
@@ -429,4 +432,8 @@ header {
 .footer-link:hover,
 .footer-link:active {
   color: #1c61d1;
+}
+
+#insta:hover{
+  color: #ff00aa;
 }
