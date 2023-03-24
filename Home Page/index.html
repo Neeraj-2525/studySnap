@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,30 +9,135 @@
     <link rel="stylesheet" href="stylesheet.css">
     <script src="script.js"></script>
 </head>
+
 <body>
     <header id="header">
-        <h2 id="logo" class="logo">Study Snap_</h2>
+        <h2 id="logo" class="logo">Study Snap</h2>
         <nav class="navigation">
             <a class="links" href="/Home Page/index.html">Home</a>
             <a class="links" href="#">Courses</a>
             <a class="links" href="#">About</a>
             <a class="links" href="#">Contact</a>
             <button class="btnLogin-popup"><a href="/Login Page/index.html">Login</a></button>
+            <!-- <button class="btnSignup-popup" id="signUpbtn"> <a href="/Login Page/index.html">Sign Up</a></button> -->
         </nav>
     </header>
 
     <section class="sec1">
-        <div class="intro-container">
-            <h1 id="intro-line">Learn In A <br> Snap</h1>
-            <!-- <img src="study.svg" alt="study" width="40%"> -->
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Obcaecati voluptatum amet dignissimos nostrum rem doloribus incidunt non consectetur saepe hic?
-            </p>
+        <div class="wrapper">
+            <div class="intro-container">
+                <h1 id="intro-line">Learn In A <br> Snap</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Obcaecati voluptatum amet dignissimos
+                    nostrum rem doloribus incidunt non consectetur saepe hic?
+                </p>
 
-            <a href="#" class="cta"><button>Get Started</button></a>
+                <a href="#" class="cta"><button>Get Started</button></a>
+            </div>
+            <img src="study.svg" alt="study">
         </div>
     </section>
-    
-    
+
+    <section class="sec2">
+        <div class="wrapper2">
+            <div class="container1">
+                <h2>Free Online Courses with certificates</h2>
+                <!-- <label for="search"></label> -->
+                <div class="search-bar">
+                    <!-- <ion-icon class="search-icon" name="search-outline"></ion-icon> -->
+                    <input id="search" type="text" pattern=".*\S.*" required
+                        placeholder="What do you want to learn today?">
+                </div>
+                <h3>Watch the worthy parts of youtube videos, that won't waste your precious time.</h3>
+                <img class="left-img" src="analysis.svg" alt="analysis image">
+                <img class="right-img" src="certificate.svg" alt="certificate image">
+            </div>
+        </div>
+    </section>
+
+    <section class="sec3">
+        <div class="sec3-container">
+            <div class="header">
+                <h2>Explore 4000+ free online courses </h2>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="card">
+                <div class="card-content">
+                    <img src="https://img.icons8.com/nolan/64/imac.png" />
+                    <p class="name">HTML</p>
+                    <p class="no-lec">200+ Lectures &nbsp;<i class="arrow right"></i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="https://img.icons8.com/nolan/64/imac.png" />
+                    <p class="name">CSS</p>
+                    <p class="no-lec">200+ Lectures &nbsp;<i class="arrow right"></i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="https://img.icons8.com/nolan/64/imac.png" />
+                    <p class="name">JAVA SCRIPT</p>
+                    <p class="no-lec">200+ Lectures &nbsp;<i class="arrow right"></i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="https://img.icons8.com/nolan/64/imac.png" />
+                    <p class="name">REACT .JS</p>
+                    <p class="no-lec">200+ Lectures &nbsp;<i class="arrow right"></i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="https://img.icons8.com/nolan/64/imac.png" />
+                    <p class="name">NODE.JS</p>
+                    <p class="no-lec">200+ Lectures &nbsp;<i class="arrow right"></i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="https://img.icons8.com/nolan/64/imac.png" />
+                    <p class="name">NDA</p>
+                    <p class="no-lec">200+ Lectures &nbsp;<i class="arrow right"></i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="https://img.icons8.com/nolan/64/imac.png" />
+                    <p class="name">CDS</p>
+                    <p class="no-lec">200+ Lectures &nbsp;<i class="arrow right"></i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="https://img.icons8.com/nolan/64/imac.png" />
+                    <p class="name">UPSC</p>
+                    <p class="no-lec">200+ Lectures &nbsp;<i class="arrow right"></i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="https://img.icons8.com/nolan/64/imac.png" />
+                    <p class="name">SSC</p>
+                    <p class="no-lec">200+ Lectures &nbsp;<i class="arrow right"></i></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="https://img.icons8.com/nolan/64/imac.png" />
+                    <p class="name">JEE</p>
+                    <p class="no-lec">200+ Lectures &nbsp;<i class="arrow right"></i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <a target="_blank" href="https://icons8.com/icon/102552/laptop"></a>
 </body>
+
 </html>

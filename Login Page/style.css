@@ -12,7 +12,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(backImg1.jpg) no-repeat;
+    /*background: url(vivid-blurred-colorful-wallpaper-background.jpg) no-repeat;*/
+    background: radial-gradient(ellipse at center, #FFFFFF, #CFFDFF);
     background-size: cover;
     background-position: center;
 
@@ -34,14 +35,14 @@ header{
 
 .logo{
     font-size: 2em;
-    color: #fff;
+    color: #0c0c0c;
     user-select: none;
 }
 
 .navigation a{
     position: relative;
     font-size: 1.1rem;
-    color: #fff;
+    color: #060606;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
@@ -54,7 +55,7 @@ header{
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background: #fff;
+    background: #0a0a0a;
     border-radius: 5px;
     transform-origin: right;
     transform: scaleX(0);
@@ -64,6 +65,7 @@ header{
 .navigation a:hover::after{
     transform-origin: left;
     transform: scaleX(1);
+    
 }
 
 .navigation .btnLogin-popup{
@@ -83,7 +85,8 @@ header{
 
 .navigation .btnLogin-popup:hover{
     background: #fff;
-    color: #162938;
+    /*color: #162938;*/
+    color: #4285f4;
 }
 
 .wrapper{
@@ -145,7 +148,8 @@ header{
     right: 0;
     width: 45px;
     height: 45px;
-    background: rgb(58, 37, 85);
+    /*background: rgb(58, 37, 85);*/
+    background: #4285f4;
     font-size: 2em;
     color: #fff;
     display: flex;
@@ -232,7 +236,8 @@ header{
 .btn{
     width: 100%;
     height: 45px;
-    background: rgb(58, 37, 85);
+    /*background: rgb(58, 37, 85);*/
+    background: #4285f4;
     border-radius: 6px;
     outline: none;
     border: none;
