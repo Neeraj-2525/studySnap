@@ -236,7 +236,7 @@ header {
 .sec3 {
   margin-top: 1.1rem;
   min-height: 80vh;
-  background-image: linear-gradient(to right bottom,#93cab8,#22aeff, #8daf9e);
+  background-image: linear-gradient(to right bottom, #93cab8, #22aeff, #8daf9e);
 }
 
 .sec3 .sec3-container {
@@ -356,7 +356,7 @@ header {
   padding: 2rem 5rem;
   border-top: 1px solid #eee;
   background: #0b2441;
-  background-image: linear-gradient(to right bottom, #0b2441, #545a5f );
+  background-image: linear-gradient(to right bottom, #0b2441, #545a5f);
 }
 .container {
   display: flex;
@@ -434,6 +434,6 @@ header {
   color: #1c61d1;
 }
 
-#insta:hover{
+#insta:hover {
   color: #ff00aa;
 }

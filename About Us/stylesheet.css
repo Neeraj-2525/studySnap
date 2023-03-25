@@ -114,7 +114,7 @@ img {
   padding: 2rem 2rem;
   border: 2px solid black;
   border-radius: 50px;
-  box-shadow: 0px 0px 3px 0px black;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 .about-2:hover {
   transform: matrix(1.05, 0, 0, 1.05, 0, 0);
@@ -131,7 +131,7 @@ img {
 .footer {
   padding: 2rem 5rem;
   border-top: 1px solid #eee;
-  background-image: linear-gradient(to right bottom, #0b2441, #545a5f )
+  background-image: linear-gradient(to right bottom, #0b2441, #545a5f);
 }
 .container {
   display: flex;
@@ -209,6 +209,6 @@ img {
   color: #1c61d1;
 }
 
-#insta:hover{
+#insta:hover {
   color: #ff00aa;
 }
