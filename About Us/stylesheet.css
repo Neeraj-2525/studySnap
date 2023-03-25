@@ -119,6 +119,7 @@ img {
 .about-2:hover {
   transform: matrix(1.05, 0, 0, 1.05, 0, 0);
   transition: all 0.3s;
+  background-color: #1c61d1;
 }
 .about-2-heading {
   font-size: 1.7rem;
