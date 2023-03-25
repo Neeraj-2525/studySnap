@@ -353,7 +353,7 @@ header {
 } 
 */
 .footer {
-  padding: 2rem 5rem;
+  padding: 0rem 5rem;
   border-top: 1px solid #eee;
   background: #0b2441;
   background-image: linear-gradient(to right bottom, #0b2441, #545a5f );
@@ -390,12 +390,7 @@ header {
   margin-top: 2rem;
 }
 
-.copyright {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: white;
-  margin-top: auto;
-}
+
 
 .footer-heading {
   font-size: 1.5rem;
@@ -436,4 +431,9 @@ header {
 
 #insta:hover{
   color: #ff00aa;
+}
+.copyright1{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
 }
