@@ -84,7 +84,7 @@ header {
   background: #1c61d1;
   box-shadow: rgba(66, 133, 244, 0.4) 0px 4px 20px -5px;
 }
-/* +-------------------------------------------------------------------------------------------- */
+
 .container-1 {
   position: relative;
   width: 100%;
@@ -95,7 +95,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 5.2rem;
 }
 
 .form {
@@ -111,7 +111,7 @@ header {
 }
 
 .contact-form {
-  background-color: #4285f4;
+  background-color: #1abc9c;
   position: relative;
 }
 
@@ -134,6 +134,18 @@ header {
   top: 10px;
   right: 30px;
 }
+
+.contact-form:before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: #1abc9c;
+  transform: rotate(45deg);
+  top: 50px;
+  left: -13px;
+}
+
 form {
   padding: 2.3rem 2.2rem;
   z-index: 10;
@@ -327,6 +339,38 @@ textarea.input {
   right: 50px;
   opacity: 0.3;
 }
+
+.big-circle {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #1cd4af, #159b80);
+  bottom: 50%;
+  right: 50%;
+  transform: translate(-40%, 38%);
+}
+
+.big-circle:after {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  background-color: #fafafa;
+  border-radius: 50%;
+  top: calc(50% - 180px);
+  left: calc(50% - 180px);
+}
+
+.square {
+  position: absolute;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(181%, 11%);
+  opacity: 0.2;
+}
+
 @media (max-width: 850px) {
   .form {
     grid-template-columns: 1fr;
@@ -344,6 +388,18 @@ textarea.input {
     left: initial;
     right: 70px;
   }
+
+  .square {
+    transform: translate(140%, 43%);
+    height: 350px;
+  }
+
+  .big-circle {
+    bottom: 75%;
+    transform: scale(0.9) translate(-40%, 30%);
+    right: 50%;
+  }
+
   .text {
     margin: 1rem 0 1.5rem 0;
   }
@@ -359,6 +415,11 @@ textarea.input {
   }
 
   .contact-info:before {
+    display: none;
+  }
+
+  .square,
+  .big-circle {
     display: none;
   }
 
@@ -396,7 +457,6 @@ textarea.input {
   }
 }
 
-/* --------------------------------------------------------------------------------------------------- */
 .footer {
   padding: 2rem 5rem;
   border-top: 1px solid #eee;
