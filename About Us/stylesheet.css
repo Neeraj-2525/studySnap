@@ -131,7 +131,7 @@ img {
 .footer {
   padding: 2rem 5rem;
   border-top: 1px solid #eee;
-  background-color: rgb(154, 150, 150);
+  background-image: linear-gradient(to right bottom, #0b2441, #545a5f )
 }
 .container {
   display: flex;
@@ -207,4 +207,8 @@ img {
 .footer-link:hover,
 .footer-link:active {
   color: #1c61d1;
+}
+
+#insta:hover{
+  color: #ff00aa;
 }
