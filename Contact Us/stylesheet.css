@@ -111,13 +111,14 @@ header {
 }
 
 .contact-form {
-  background-color: #1abc9c;
+  /* background-color: #1abc9c; */
+  background-image: linear-gradient(to right bottom, #93cab8, #2256ff, #8daf9e);
   position: relative;
 }
 
 .circle {
   border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, #149279);
+  background: linear-gradient(135deg, transparent 20%, blue);
   position: absolute;
 }
 
@@ -126,6 +127,7 @@ header {
   height: 130px;
   top: 130px;
   right: -40px;
+  background-image: linear-gradient(to right bottom, #93cab8, #2256ff, #8daf9e);
 }
 
 .circle.two {
@@ -133,6 +135,7 @@ header {
   height: 80px;
   top: 10px;
   right: 30px;
+  background-image: linear-gradient(to right bottom, #93cab8, #2256ff, #8daf9e);
 }
 
 .contact-form:before {
@@ -212,7 +215,7 @@ textarea.input {
   background-color: #fff;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
-  color: #1abc9c;
+  color: #1c61d1;
   line-height: 1;
   border-radius: 25px;
   outline: none;
@@ -246,7 +249,8 @@ textarea.input {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color: #1abc9c;
+  /* background-color: #1abc9c; */
+  background-image: linear-gradient(to right bottom, #93cab8, #2256ff, #8daf9e);
   top: 50%;
   transform: translateY(-50%);
 }
@@ -278,7 +282,8 @@ textarea.input {
 }
 
 .contact-info .title {
-  color: #1abc9c;
+  /* color: #1abc9c; */
+  color: black;
 }
 
 .text {
@@ -316,7 +321,8 @@ textarea.input {
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  background: linear-gradient(45deg, #1abc9c, #149279);
+  /* background: linear-gradient(45deg, #1abc9c, #149279); */
+  background-image: linear-gradient(to right bottom, #93cab8, #2256ff, #8daf9e);
   color: #fff;
   text-align: center;
   line-height: 35px;
@@ -345,7 +351,7 @@ textarea.input {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #1cd4af, #159b80);
+  background-image: linear-gradient(to right bottom, #93cab8, #2256ff, #8daf9e);
   bottom: 50%;
   right: 50%;
   transform: translate(-40%, 38%);

@@ -131,6 +131,7 @@ img {
 .footer {
   padding: 2rem 5rem;
   border-top: 1px solid #eee;
+  background: #0b2441;
   background-image: linear-gradient(to right bottom, #0b2441, #545a5f);
 }
 .container {
