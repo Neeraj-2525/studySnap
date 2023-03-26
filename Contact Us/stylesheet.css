@@ -96,6 +96,7 @@ header {
   align-items: center;
   justify-content: center;
   margin-top: 5.2rem;
+  z-index: 0;
 }
 
 .form {
@@ -127,7 +128,14 @@ header {
   height: 130px;
   top: 130px;
   right: -40px;
-  background-image: linear-gradient(to right bottom, #93cab8, #2256ff, #8daf9e);
+  background-image: linear-gradient(to right bottom, #dce9e5, #2256ff, #645164);
+  animation: random_motion_big 15s infinite alternate;
+}
+
+@keyframes random_motion_big {
+  0% { transform: translateY(0); }
+  100% { 
+  transform: translate3d(-150px, 10px, 10px); }
 }
 
 .circle.two {
@@ -135,7 +143,14 @@ header {
   height: 80px;
   top: 10px;
   right: 30px;
-  background-image: linear-gradient(to right bottom, #93cab8, #2256ff, #8daf9e);
+  background-image: linear-gradient(to right bottom, #a9d3c5, #2256ffbb, #8daf9ecc);
+  animation: random_motion_small 15s infinite alternate;
+}
+
+@keyframes random_motion_small {
+  0% { transform: translateY(0); }
+  100% { 
+  transform: translate3d(-150px, 150px, 10px); }
 }
 
 .contact-form:before {
@@ -169,6 +184,10 @@ form {
   margin: 1rem 0;
 }
 
+/* .input-container input{
+  color: #000;
+} */
+
 .input {
   width: 100%;
   outline: none;
@@ -181,6 +200,10 @@ form {
   letter-spacing: 0.5px;
   border-radius: 25px;
   transition: 0.3s;
+}
+
+.input::placeholder{
+  color: #fff;
 }
 
 textarea.input {
@@ -339,7 +362,7 @@ textarea.input {
   position: absolute;
   width: 110px;
   height: 100px;
-  border: 22px solid #1abc9c;
+  border: 22px solid #1a9cbc;
   border-radius: 50%;
   bottom: -77px;
   right: 50px;
