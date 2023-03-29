@@ -345,7 +345,7 @@ textarea.input {
   height: 35px;
   border-radius: 5px;
   /* background: linear-gradient(45deg, #1abc9c, #149279); */
-  background-image: linear-gradient(to right bottom, #93cab8, #2256ff, #8daf9e);
+  background-image: linear-gradient(to right bottom, #93cab8, #2256ff, #001483);
   color: #fff;
   text-align: center;
   line-height: 35px;
@@ -374,11 +374,20 @@ textarea.input {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background-image: linear-gradient(to right bottom, #93cab8, #2256ff, #8daf9e);
+  background-image: linear-gradient(to right bottom, #c7d6e0, #2256ff, #15008a);
   bottom: 50%;
   right: 50%;
   transform: translate(-40%, 38%);
+  animation: big_circle 10s infinite forwards;
 }
+
+@keyframes big_circle {
+  0% { transform:translate(-40%, 38%) rotateZ(0deg); }
+  100% { 
+  transform:translate(-40%, 38%) rotateZ(360deg); }
+}
+
+
 
 .big-circle:after {
   content: "";
